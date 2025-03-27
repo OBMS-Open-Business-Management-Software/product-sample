@@ -1,0 +1,38 @@
+{
+    "name": "obms/product-sample",
+    "type": "obms-product",
+    "description": "The OBMS Sample product.",
+    "keywords": ["obms", "open business management software"],
+    "license": "BUSL-1.1",
+    "homepage": "https://getobms.com",
+    "support": {
+        "docs": "https://docs.getobms.com",
+        "email": "support@getobms.com",
+        "issues": "https://github.com/OBMS-Open-Business-Management-Software/core/issues",
+        "source": "https://github.com/OBMS-Open-Business-Management-Software/core"
+    },
+    "extra": {
+        "dir": "Sample"
+    },
+    "require": {
+        "php": "^8.2",
+        "obms/composer-installer": "^2.0",
+        "obms/module-sdk": "^1.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "OBMS\\Product\\Sample\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "obms/composer-installer": true,
+            "php-http/discovery": true
+        }
+    }
+}
