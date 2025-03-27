@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1](https://github.com/OBMS-Open-Business-Management-Software/product-sample/compare/v1.0.0...v1.0.1) (2025-03-27)
+
+
+### Bug Fixes
+
+* psr-4 autoloading ([b69db00](https://github.com/OBMS-Open-Business-Management-Software/product-sample/commit/b69db00b0aaf72fbe3e50c133904477f15406111))
+
 ## 1.0.0 (2025-03-27)
 
 
