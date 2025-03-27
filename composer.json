@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OBMS\\Product\\Sample\\": "src/"
+            "OBMS\\Products\\Sample\\": "src/"
         }
     },
     "config": {
