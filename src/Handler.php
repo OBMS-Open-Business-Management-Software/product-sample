@@ -88,15 +88,16 @@ class Handler implements Product
     }
 
     /**
-     * Enable user interface capabilities.
+     * Modify user interface capabilities.
      *
      * @return object
      */
     public function ui(): object
     {
         return (object) [
-            'admin'    => true,
-            'customer' => true,
+            'admin'      => true,
+            'customer'   => true,
+            'order_form' => null,
         ];
     }
 
